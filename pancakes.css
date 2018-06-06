@@ -1,0 +1,39 @@
+.pancakesContactDiv{
+	width:450px;
+	height:75px;
+	background-image: linear-gradient(to right, #43e97b 0%, #38f9d7 100%);
+	font: 400 1.0em/1.3em 'Open Sans';
+	text-align:center;
+	border:2px solid white;
+	border-radius:5px;
+	position:relative;
+	left:50%;
+	
+	top:300px;
+	margin-left:-225px;
+}
+
+body{
+	background-color:#3b3a36;
+	height:100%;
+	width:100%;
+	margin:0px;
+	padding:0px;
+}
+
+@media screen and (max-width:550px) {
+.pancakesContactDiv{
+	width:250px;
+	height:75px;
+	background-image: linear-gradient(to right, #43e97b 0%, #38f9d7 100%);
+	font: 400 0.8em/1.3em 'Open Sans';
+	text-align:center;
+	border:2px solid white;
+	border-radius:5px;
+	position:relative;
+	left:50%;
+	
+	top:300px;
+	margin-left:-125px;
+}
+}
